@@ -1,4 +1,10 @@
-def draw_school():
+def draw_school(floors):
+    
+    floor = ('''
+    |    _      _      _       _    |
+    |   |_|    |_|    |_|     |_|   |
+    ''')
+    
     print('''
     
                  88_________________   
@@ -10,6 +16,7 @@ def draw_school():
     /_________________________________\
     |  Python City Middle School      |
     |                                 |
+    ''' + floors*floor + '''
     |    _        __     _       _    |
     |   |_|      |  |   |_|     |_|   |
     |____________|__|_________________|
